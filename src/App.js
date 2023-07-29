@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
-import Tableuser from './table_user';
+ import Tableuser from './table_user';
 import Dashboard from './dashboard';
 import Indexmain from './indexmain';
 // นำเข้าคอมโพเนนต์ต่าง ๆ ที่ใช้เป็นหน้า
