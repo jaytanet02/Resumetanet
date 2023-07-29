@@ -56,6 +56,8 @@
      <script src="./assets/js/plugins/smooth-scrollbar.min.js"></script>
      <script src="./assets/js/plugins/chartjs.min.js"></script>
      <script>
+          
+
        var ctx1 = document.getElementById("chart-line").getContext("2d");
    
        var gradientStroke1 = ctx1.createLinearGradient(0, 230, 0, 50);
@@ -150,6 +152,16 @@
      <!-- Github buttons -->
      <script async defer src="https://buttons.github.io/buttons.js"></script>
      <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
-   
+     <script >
+      function checkbody() {
+        document.body.classList.toggle('g-sidenav-show');
+    // หากมีคลาส "bg-gray-100" ใน <body> ให้ลบออก
+    document.body.classList.toggle('bg-gray-100');
+    // หากมีคลาส "g-sidenav-pinned" ใน <body> ให้ลบออก
+    document.body.classList.toggle('g-sidenav-pinned');
+
+
+  };
+     </script>
   </body>
 </html>
