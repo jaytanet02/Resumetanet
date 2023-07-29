@@ -4,7 +4,7 @@ function table_user() {
   return (
     <>
       <body class="g-sidenav-show   bg-gray-100">
-    <Navbar/>
+     <Navbar/>
     <main class="main-content position-relative border-radius-lg ">
    
          <div class="container-fluid py-4">
