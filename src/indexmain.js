@@ -150,9 +150,8 @@ export default function indexmain() {
                             <th></th>
                             <th></th>
                             <th></th>
-                            <th></th>
-                            <th></th>
-                            <th></th>
+                      
+                       
 
 
                           </tr>
