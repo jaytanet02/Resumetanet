@@ -56,7 +56,7 @@ function profile() {
                                                         <td style={{ width: '80px' }}>
                                                             <div class="d-flex flex-column justify-content-center">
                                                                 <h6 class="mx-4 ml-3 text-x">
-                                                                    Interested in the backend developer</h6>
+                                                                    backend developer</h6>
                                                             </div>
                                                         </td>
                                                         <td colspan="3"></td>
