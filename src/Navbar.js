@@ -9,7 +9,10 @@ function Navbar() {
     document.body.classList.toggle('bg-gray-100');
     // หากมีคลาส "g-sidenav-pinned" ใน <body> ให้ลบออก
     document.body.classList.toggle('g-sidenav-pinned');
-
+    const element = document.getElementById('indexhidden');
+console.log(element);
+      element.hidden = true;
+    
 
   };
 
@@ -20,10 +23,10 @@ function Navbar() {
   <aside class="sidenav bg-white navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-4 " id="sidenav-main">
     <div class="sidenav-header">
       <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
-      <a class="navbar-brand m-0" href="http://localhost:3000/dashboard" target="_blank"  rel="noreferrer" >
+      <div class="navbar-brand m-0" >
         <img src="../assets/img/logo-ct-dark.png" class="navbar-brand-img h-100" alt="main_logo"/>
-        <span class="ms-1 font-weight-bold"> ห้องเช่า</span>
-      </a>
+        <span class="ms-1 font-weight-bold"> Menu</span>
+      </div>
     </div>
     <hr class="horizontal dark mt-0"/>
     <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
@@ -33,7 +36,7 @@ function Navbar() {
             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
               <i class="ni ni-tv-2 text-primary text-sm opacity-10"></i>
             </div>
-            <span class="nav-link-text ms-1">Dashboard</span>
+            <span class="nav-link-text ms-1">ภาพรวม</span>
             </Link>
         </li>
         <li class="nav-item">
@@ -99,15 +102,7 @@ function Navbar() {
       </ul>
     </div>
     <div class="sidenav-footer mx-3 ">
-      <div class="card card-plain shadow-none" id="sidenavCard">
-        <img class="w-50 mx-auto" src="../assets/img/illustrations/icon-documentation.svg" alt="sidebar_illustration"/>
-        <div class="card-body text-center p-3 w-100 pt-0">
-          <div class="docs-info">
-            <h6 class="mb-0">Need help?</h6>
-            <p class="text-xs font-weight-bold mb-0">Please check our docs</p>
-          </div>
-        </div>
-      </div>
+     
      
     </div>
   </aside>

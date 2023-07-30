@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from "./Navbar";
 function dashboard() {
+  
   return (
     <>
    <body class="g-sidenav-show   bg-gray-100">
@@ -126,10 +127,10 @@ function dashboard() {
                 <table class="table align-items-center mb-0">
                   <thead>
                     <tr>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Author</th>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Function</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Status</th>
-                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Employed</th>
+                      <th class="text-uppercase text-secondary text-xs font-weight-bolder opacity-7">ชื่อ</th>
+                      <th class="text-uppercase text-secondary text-xs font-weight-bolder opacity-7 ps-2">Function</th>
+                      <th class="text-center text-uppercase text-secondary text-xs font-weight-bolder opacity-7">Status</th>
+                      <th class="text-center text-uppercase text-secondary text-xs font-weight-bolder opacity-7">Employed</th>
                       <th class="text-secondary opacity-7"></th>
                     </tr>
                   </thead>
