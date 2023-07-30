@@ -78,11 +78,11 @@ function table_user() {
                              <td style={{ width: '500px' }} >                             
                             </td>
                           </tr>
-                          <thead>
+                         
                           <tr>
-                            <th colspan="12" class="text-left text-uppercase text-secondary  font-weight-bolder ">Skill Tester</th>
+                            <th colspan="12" class="text-left text-uppercase text-secondary  font-weight-bolder ">&nbsp;&nbsp;&nbsp;&nbsp;Skill Tester</th>
                           </tr>
-                          </thead>
+                       
                           <tr>
                              <td style={{ width: '50px' }} >
                               <center><img src="../assets/img/t1.png" class="avatar custom-lg-size mx-3" style={{ width: '80px', height: '80px' }} alt="user1" />
