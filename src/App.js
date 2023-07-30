@@ -1,31 +1,24 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes ,Navigate } from 'react-router-dom';
 
-
- import Tableuser from './table_user';
-import Dashboard from './dashboard';
+import Skill from './skill';
+import Experience from './experience';
+import Profile from './profile';
 import Indexmain from './indexmain';
-// นำเข้าคอมโพเนนต์ต่าง ๆ ที่ใช้เป็นหน้า
+import Education from './education';
+
 
 function App() {
-
   return (
     <Router>
-     
-        <Indexmain />
-
+      <Indexmain/>
       <Routes>
-       
-          <>
-            {/* กำหนดเส้นทางไปยังหน้าอื่น ๆ ที่ผู้ใช้ที่เข้าสู่ระบบจะเห็น */}
-            {<Route path="/dashboard" element={<Dashboard />} />}
-          </>
-    
-          <>
-            {/* กำหนดเส้นทางไปยังหน้าอื่น ๆ ที่ผู้ใช้ที่ยังไม่ได้เข้าสู่ระบบจะเห็น */}
-            {<Route path="/table_user" element={<Tableuser />} />}
-          </>
-       
+        <Route path="/" element={<Navigate to="/profile" />} />
+        <Route path="/skill" element={<Skill />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/education" element={<Education />} />
+        <Route path="/profile" element={<Profile />} />
+        {/* หน้าอื่น ๆ ที่คุณต้องการกำหนดเส้นทาง */}
       </Routes>
     </Router>
   );

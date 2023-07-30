@@ -8331,7 +8331,8 @@ fieldset:disabled .btn {
 }
 
 .opacity-8 {
-  opacity: 0.8 !important;
+ 
+  color: #000000;
 }
 
 .opacity-9 {
@@ -9037,6 +9038,7 @@ fieldset:disabled .btn {
 .flex-wrap-reverse {
   flex-wrap: wrap-reverse !important;
 }
+
 
 .justify-content-start {
   justify-content: flex-start !important;
@@ -20141,6 +20143,19 @@ fieldset:disabled .btn {
   z-index: 999;
 }
 
+.columbul {
+	font-size: 20px;
+	width: 250px;
+	height: 50px;
+	color: #e7e9fd;
+	border-radius: 30px;
+	background-color: #2a36b1;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+
 .avatar {
   color: #fff;
   display: inline-flex;
@@ -21797,8 +21812,12 @@ label,
 }
 
 .icon-sm {
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
+}
+.icon-menu {
+  width: 25px;
+  height: 25px;
 }
 
 .icon-sm i {
@@ -24595,7 +24614,7 @@ hr.horizontal.gray-light {
 
 .table.align-items-center td,
 .table.align-items-center th {
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 .table tbody tr:last-child td {
