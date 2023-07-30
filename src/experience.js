@@ -76,6 +76,7 @@ function dashboard() {
                                   different formats.</h6>
                               </div>
                             </td>
+                            <td colspan ="12"> </td>
                           </tr>
                           <tr>
 

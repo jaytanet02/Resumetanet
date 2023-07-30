@@ -76,7 +76,9 @@ export default function education() {
                                                                 </h6></center>
                                                             </div>
                                                         </td>
+                                                        <td colspan ="12"> </td>
                                                     </tr>
+                                                  
                                                     <tr>
 
 
@@ -101,6 +103,7 @@ export default function education() {
                                                                 </h6></center>
                                                             </div>
                                                         </td>
+                                                        <td colspan ="12"> </td>
                                                     </tr>
 
 
