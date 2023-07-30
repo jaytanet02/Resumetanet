@@ -72,7 +72,7 @@ export default function indexmain() {
                   </div>
                   <div class="card-body px-0 pt-0 pb-2">
                     <div class="table-responsive p-0">
-                      <table class="table align-items-center mb-2" border={1}>
+                      <table class="table align-items-center mb-2" >
                         <thead>
                           <tr>
                             <th class="text-uppercase text-secondary text-x font-weight-bolder opacity-7"></th>
@@ -134,7 +134,7 @@ export default function indexmain() {
                       <div class="card-header pb-1 mx-4">
                         <h6>CONTACT </h6>
                       </div>
-                      <table class="table align-items-center mb-5" border={1}>
+                      <table class="table align-items-center mb-5" >
                         <thead>
                           <tr>
                             <th class="text-center text-uppercase text-secondary text-x font-weight-bolder opacity-7">Tel</th>
